@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 48px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: auto;
+}
+
+.nav {
+    margin-right: 48px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 60px;
+}
+
+.nav__link {
+    font-size: 18px;
+    color: #000;
+}
+
+.nav__link:hover {
+    color: #ff9000; 
+}
+
+.header__actions {
+    display: flex;
+    gap: 31px;
+}
+
+.header__login , .header__sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #ff9000;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.header__sign-up {
+    background-color: #ff9000;
+    color: #fff;
+}
+
+.hero {
+    padding-top: 36px;
+    padding-bottom: 143px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content {
+    width: 484px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 121%;
+    color: #212e41;
+    margin-bottom: 20px;
+}
+
+.hero__title span {
+    color: #ff9000;
+}
+
+.hero__price {
+    margin-bottom: 17px;
+}
+
+.price__new {   
+    font-weight: 500;
+    font-size: 22px;
+    color: #212e41;
+    text-decoration: none;
+}
+
+.price__old {
+    color: #656565;
+    margin-left: 8px;
+}
+
+.hero__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #656565;
+    margin-bottom: 50px;
+}
+
+.hero__link {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: #ff9000;
+    box-shadow: 0px 4px 7px #00000033;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.hero2 {
+    padding: 100px 0;
+}
+
+.hero2__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero2__img-wrapper img {
+    width: 450px;
+}
+
+.hero2__content {
+    width: 460px;
+}
+
+.hero2__title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #212e41;
+}
+
+.hero2__title span {
+    color: #ff9000;
+}
+
+.hero2__price {
+    margin-bottom: 20px;
+}
+
+.hero2__desc {
+    font-size: 18px;
+    line-height: 160%;  
+    color: #656565;
+    margin-bottom: 40px;
+}
+
+.characters {
+    background: #ff8a00;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.char img {
+    height: 285px;
+    object-fit: contain;
+}
+
+.contact {
+    padding-top: 172px;
+    padding-bottom: 125px;
+    background-color: blue;
+}
+
+.contact__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 139%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 41px;
+}
+
+.contact__input {
+  width: 709px;
+  height: 100px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 139%;
+  letter-spacing: 0%;
+  padding-left: 67px;
+
+}
+
+.contact__btn {
+    width: 377px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #ff9000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 139%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    background-color: blue;
+    padding-bottom: 29px;
+}
+
+.footer__wrapper {
+    display: flex;
+}
+
+.footer__copy {
+    width: 368px;
+    margin-right: 261px;
+}
+
+.footer__copy-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #656565;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    list-style: none;
+    margin-right: 50px;
+
+}
+
